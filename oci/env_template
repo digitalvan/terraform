@@ -1,0 +1,31 @@
+### Authentication Details ###
+export TF_VAR_tenancy_ocid=""
+export TF_VAR_user_ocid=""
+export TF_VAR_fingerprint=""
+export TF_VAR_private_key_path=""
+
+### Region ###
+export TF_VAR_region=""
+
+### Compartment ###
+export TF_VAR_compartment_ocid=""
+
+### Public/private keys used on the instance ###
+export TF_VAR_ssh_public_key=$(cat /path/to/.ssh/key.pub)
+export TF_VAR_ssh_private_key=$(cat /path/to/.ssh/.ssh.key)
+
+export TF_VAR_cli_priv_key=$(chef exec ruby -e 'p ARGF.read' /path/to/.oci/os_user.pem)
+export TF_VAR_docker_auth_token=""
+export TF_VAR_cli_user_ocid=""
+export TF_VAR_cli_user_fp=""
+export TF_VAR_cli_user_region=""
+
+#ULN Registration
+#export TF_VAR_uln_register="1"
+#export TF_VAR_uln_username=""
+#export TF_VAR_uln_password=""
+
+
+
+
+
