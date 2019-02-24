@@ -1,0 +1,10 @@
+# local TF files     #
+######################
+*.local
+*.terraform/*
+
+
+# temp files         #
+######################
+*.swp
+lock.json
